@@ -1,0 +1,178 @@
+
+/* 
+---------------------------------------------
+Start contact
+--------------------------------------------- 
+*/
+
+#contact-us {
+    padding: 160px 0px;
+    }
+    
+    #contact-us h5 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #221f1f;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    }
+    
+    .contact-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    }
+    
+    .contact-text p {
+    margin-bottom: 28px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+    }
+    
+    .contact-form textarea {
+    height: 150px;
+    resize: none;
+    padding: 20px;
+    }
+    
+    .margin-bottom-30 {
+    margin-bottom: 30px !important;
+    }
+    
+    .left-heading.light .section-title {
+    color: #ffffff;
+    }
+    
+    .left-heading .section-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+    position: relative;
+    }
+    
+    .center-heading {
+    text-align: center;
+    }
+    
+    .center-heading .section-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    }
+    
+    .center-heading.colored .section-title {
+    color: #ffffff;
+    }
+    
+    .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    }
+    
+    .center-text.colored {
+    color: #fff;
+    }
+    
+    .center-text p {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 30px;
+    }
+    
+    a.main-button-slider {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #ccf2f4;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    }
+    
+    
+    
+    a.main-button {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #ccf2f4;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    }
+    
+    
+    
+    button.main-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #28527a;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    }
+    
+    button.main-button:hover {
+    background-color: #0b0c0c;
+    }
+    
+    .section {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    }
+    
+    .section.colored {
+    background: #ccf2f4;
+    }
+    
+    /* 
+    ---------------------------------------------
+    End contact
+    --------------------------------------------- 
+    */
+    
