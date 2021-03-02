@@ -1,0 +1,166 @@
+
+
+
+body{
+    margin: 0; 
+    padding: 0; 
+   
+}
+
+/* ourbooks style */
+
+.ourbooks {
+    display: flex;
+    background: #f7f1c2;
+    position: relative;
+}
+.ourbooks span{   
+    position: absolute;        
+    font-family: comfortaa;
+    font-size: 60px;
+    color:#21455e;
+    text-transform: uppercase;
+    margin-left: 34%; 
+    border-bottom: solid thin red;
+    margin-bottom: 10px;
+}
+.ourbooks span:hover{ 
+    color: #a11c6a;
+}
+
+/* Flex Items */
+.ourbooks_item {
+    width: 300px;
+    height: 400px;
+    color: #0a0909;
+    margin: 80px;
+    font-family: Nunito Sans;
+    margin-top: 120px;
+}
+
+.ourbooks_item #book1, #book2 , #book3{
+    border: #490225 3px solid;
+    
+}
+.ourbooks_item #book1:hover{
+    transform: scale(1.5);
+    opacity: 0.5 ;   
+}
+.ourbooks_item #book2:hover{
+    transform: scale(1.5);
+    opacity: 0.5 ;   
+}
+.ourbooks_item #book3:hover{
+    transform: scale(1.5);
+    opacity: 0.5 ;   
+}
+.ourbooks_item h4{
+    font-size: 20px;
+    margin-left: 12%; 
+}
+.ourbooks_item h4:hover{
+    color: red;
+    border-bottom: #21455e thin solid;
+    text-transform: uppercase;
+    margin-left: 3%;
+}
+.ourbooks_item p{
+    font-size: 14px;
+}
+
+/* footer style */
+
+/* icons style */
+
+.socialMedia {
+  padding: 40px 0px;
+  background-color: #35424a;
+  color: white;
+  position: relative;
+}
+
+.socialMedia_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMedia_container_title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.socialMedia_container_icons {
+  width: 14%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.socialMedia_container_icons i {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #f4f4f4;
+  border-radius: 50%;
+  color: #36a080;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.socialMedia_container_icons i:hover {
+  border-color: #36a080;
+}
+.call_icon {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    margin-right: 20px;
+  }
+  .call_icon .call_icon_item {
+    width:40%;
+    height: 100px;
+    float:left; /* to make the item behind them */
+    margin-right: 20px;
+    box-shadow: 0 0 20px #301130;/* box-shadow (to creat a box around item )
+    box-shadow: left(-),right(+)  top,bottom  thikness  color;*/  
+    margin-left: 7%; /* to make a space between item */
+    text-align: center; /* to make the item at center */
+    font-family: karla;
+    padding-top: 30px;  /* to make a distance between the item and box-shadow from top */
+    font-size: 20px;
+    border-radius: 10px; /* to make a curvature on the edges of the box*/
+    color:white;
+}
+.call_icon .call_icon_item p{
+    font-size: 13px;
+}
+.call_icon i {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    color: #36a080;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+  }
+.call_icon i:hover {
+    border-color: #36a080;
+  }
+ 
+
+/* copywrite style */
+.copy-right{
+    width:100%;
+    color:white;
+    background-color: black;
+    padding: 10px 0 ;
+    text-align: center ; /* make the text at center */
+    font-family:karla;
+}
