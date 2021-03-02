@@ -1,20 +1,16 @@
 # Books-website
-## color use /
 
-* #f6f5f5
-* #d3e0ea
-* #1687a7
-* #276678
+## Team Members : 
 
-Font Family use /
-
-font-family: 
-* 'FontAwesome';
+* Aya Asqoul
+* Abdullah Muzyed
+* Tuqa Abu Hatab
+* Mohammed Abu Raida
 
 
 ## About Book Website
 
-If you want to take an idea about our website ; so let read the following abstract :
+If you want to take an idea about our website, so let read the following abstract :
 
 Our website displays a group of books and a summary of them. 
 We started with lists that enable you to navigate the site and look at its contents.
@@ -24,9 +20,3 @@ We started with lists that enable you to navigate the site and look at its conte
 * If you click on the About Us menu, you will immediately move to the section that talks about us and the goal we are seeking.<br>
 * If you click on the list of Our Books, you will move to the section on books that our website is talking about, and then you will find social networking sites.<br>
 * If you click on the Contact Us menu, it will take you to a new page. You can contact us about any question you want from us.
-
-<b>Second</b> : Website programmers are:
-* The <B>Header</b> programmer is >> Aya Asqoul
-* Programmer of <b>About us</b> section is >> Abdullah Muzyed
-* The programmer of <b>Our Books</b> section is >> Tuqa Abu Hatab
-* The programmer of the <b>Contact Us</b> section is >> Mohammed Abu Raida
