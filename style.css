@@ -4,45 +4,44 @@
     box-sizing: border-box;
 }
 .about_us{
+
     padding: 40px 0px;
-    background-color: #dff4f5;
-    height: 840px;  
+    background-color: rgb(223, 244, 245);
+    height: 126vh; 
     
 }
 .container{
-    width: 100%;
-    padding-right:15px ;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .About_A{
     text-align: center;
-    padding-bottom:50px ;
-    margin-top: 40px;
-    width: 960px;
-    height: 186px;
+    width: 100%;
+    height: 30vh; 
 }
 .about_title{
     letter-spacing: 1px;
     margin: 0;
-    padding: 0 0px 20px 0px;
+    padding-bottom: 20px;
     font-size: 50px;
-    font-weight: bold;
     color: #b32137;
-    line-height: 50px;
+    font-weight: bold;
+     line-height: 50px;
     font-family: Arial, Helvetica;
 }
 #Us{
     color: black;
 }
 .first_paragraph{
-    color: #141012a9;
+    color: rgba(20, 16, 18, 0.663);
     font-size: 17px;
     line-height: 32px;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 .about_first_secton{
     width: 511px;
@@ -53,27 +52,29 @@
     height: 410px;
 }
 .border{
-    
-    margin-left: 268px;
-}
-
-.About_content{
-    border: 2px solid #1687a7;
-    border-radius: 25px;
-    padding: 40px 40px ;
-    height: 494px;
-    width: 960px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center; 
+     /* width: 600px; */
+    width:  1000px;
+}
+.About_content{
+    border: 2px solid rgb(22, 135, 167);
+    border-radius: 25px;
+    padding: 40px;
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .second_paragraph{
     
-    width: 481px;
-    height: 320px;
-    font-size: 15px;
-    line-height: 32px;
-    color: #0000008a;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.54);
 }
 a{
     width: 200px;
@@ -88,26 +89,28 @@ a{
     line-height: 20px;
     display: inline-block;
     border-radius: 30px;
-
 }
 a:hover{
     background-color: #1687a7;
 }
 
 .imge{
-    width: 335px;
-    height: 374px;
-    padding-top: 30px;
     padding-left: 20px;
 }
 
 img{
     width: 321px;
-    height: 390px;
-    border-radius: 3px #f9f3f3; 
+    height: 389px;
+    border: 2px solid #fdefe4; 
 }
 .second_paragraph::selection , .first_paragraph::selection{
     color: white;
-    /* background-color: rgba(0, 0, 0, 0.692); */
     background-color: coral;
 }
+
+@media  (max-width: 575px){
+  
+    }
+
+
+
