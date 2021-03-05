@@ -1,17 +1,118 @@
-
-
-
-
-/* General Style */
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: ; */
 }
 
+body {
+  font-family: 'FontAwesome';
+  background: #dff4f5;
+}
+.about_us{
 
+    padding: 40px 0px;
+    background-color: rgb(223, 244, 245);
+    height: 126vh; 
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.About_A{
+    text-align: center;
+    width: 100%;
+    height: 30vh; 
+}
+.about_title{
+    letter-spacing: 1px;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #b32137;
+    font-weight: bold;
+     line-height: 50px;
+    font-family: Arial, Helvetica;
+}
+#Us{
+    color: black;
+}
+.first_paragraph{
+    color: rgba(20, 16, 18, 0.663);
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.about_first_secton{
+    width: 511px;
+    height: 410px;
+}
+.border_second_paragraf{
+    width: 481px;
+    height: 410px;
+}
+.border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+     /* width: 600px; */
+    width:  1000px;
+}
+.About_content{
+    border: 2px solid rgb(22, 135, 167);
+    border-radius: 25px;
+    padding: 40px;
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second_paragraph{
+    
+    text-align: justify;
+    font-size: 17px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.About-Us-Botton{
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #28527a;
+    text-decoration: none;
+    border-radius: 30px white;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 30px;
+}
+a:hover{
+    background-color: #1687a7;
+}
+
+.imge{
+    padding-left: 20px;
+}
+
+img{
+    width: 321px;
+    height: 389px;
+    border: 2px solid #fdefe4; 
+}
+.second_paragraph::selection , .first_paragraph::selection{
+    color: white;
+    background-color: coral;
+}
+    
 /* Headear styling */
 .header {
     padding: 20px;
@@ -218,10 +319,6 @@ margin-top: 70px;
   user-select: none;
 }
 
-body {
-  font-family: 'FontAwesome';
-  background: #c4e0e5;
-}
 
 .wrapper {
   margin: 0px auto 0;
