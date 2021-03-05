@@ -15,7 +15,7 @@ If you want to take an idea about our website, so let read the following abstrac
 Our website displays a group of books and a summary of them. 
 We started with lists that enable you to navigate the site and look at its contents.
 
-## your guide to using our website is as follows :
+## Your guide to using our website is as follows :
 
 * If you click on the Home menu, you will be presented with the main website page, including all of its sections.
 * If you click on the About Us menu, you will immediately move to the section that talks about us and the goal we are seeking.
